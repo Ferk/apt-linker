@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Turns \"apt-get install\" lines into clickable apturl links for installing Ubuntu and Debian GNU/Linux packages",
+   "icons": {
+      "128": "icon128.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJZjUa3VOVqb9phxu83KPsDxoEY8bX2NjwWrE2/Ygm8p8fuyhBw4F96A1/s7VaaLSTWvm9Z2zHr6KMXVj/LPVyk8mt8e67d+Gkz1EN3jt8TSGAAbnCAdMA7sj8phZwGbTyC9BE8oWlnyaXARUgbB1NAKVvr37IIdlj2zTpfcC0+QIDAQAB",
+   "name": "Apt-linker",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2.2"
+}
